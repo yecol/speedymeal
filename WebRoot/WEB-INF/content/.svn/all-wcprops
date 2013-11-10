@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/102/trunk/SpeedyMeal/WebRoot/WEB-INF/content
+END
+userMgr.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/101/trunk/SpeedyMeal/WebRoot/WEB-INF/content/userMgr.jsp
+END
+merchantMgr.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/99/trunk/SpeedyMeal/WebRoot/WEB-INF/content/merchantMgr.jsp
+END
+cart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/99/trunk/SpeedyMeal/WebRoot/WEB-INF/content/cart.jsp
+END
+userOrder.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/102/trunk/SpeedyMeal/WebRoot/WEB-INF/content/userOrder.jsp
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/101/trunk/SpeedyMeal/WebRoot/WEB-INF/content/list.jsp
+END
+singleList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/101/trunk/SpeedyMeal/WebRoot/WEB-INF/content/singleList.jsp
+END
+merchantBranch.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/98/trunk/SpeedyMeal/WebRoot/WEB-INF/content/merchantBranch.jsp
+END

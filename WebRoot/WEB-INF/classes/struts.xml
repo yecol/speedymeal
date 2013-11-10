@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="non-authority" extends="struts-default">
+	</package>
+	<!--受权限控制的Action请求配置-->
+	<package name="users" extends="struts-default">
+		<interceptors>
+			<!--定义一个名为authority的拦截器-->
+			<interceptor class="com.qq.cstar.speedymeal.intercepter.UserInterceptor"
+				name="userAuthority" />
+			<!--定义一个包含权限检查的拦截器栈-->
+			<interceptor-stack name="mydefault">
+				<!--配置内建默认拦截器-->
+				<interceptor-ref name="defaultStack" />
+				<!--配置自定义的拦截器-->
+				<interceptor-ref name="userAuthority" />
+			</interceptor-stack>
+		</interceptors>
+		<default-action-ref name="NoAction" />
+		<global-results>
+		    <result name="index" type="redirect">/index.jsp</result>
+		 	<result name="login">/login.jsp</result>
+			<result name="register">/register.jsp</result>
+			<result name="cart">/WEB-INF/content/cart.jsp</result>
+			<result name="success">/WEB-INF/content/userMgr.jsp</result>
+		</global-results>
+		<action name="UserNavi" class="com.qq.cstar.speedymeal.actions.UserRedirect">    
+			<interceptor-ref name="mydefault" />
+			<result name="managePage">/WEB-INF/content/userMgr.jsp</result>
+			<result name="orderPage">/WEB-INF/content/userOrder.jsp</result>
+		</action>
+		<action name="UserAction" class="com.qq.cstar.speedymeal.actions.UserActions">    
+		</action>
+		<action name="SearchAction" class="com.qq.cstar.speedymeal.actions.SearchActions">
+		<result name="success">/WEB-INF/content/list.jsp</result>
+		<result name="singlelist">/WEB-INF/content/singleList.jsp</result>    
+		</action>
+	</package>
+		
+	<package name="merchants" extends="struts-default">
+		<interceptors>
+			<!--定义一个名为authority的拦截器-->
+			<interceptor class="com.qq.cstar.speedymeal.intercepter.MerchantInterceptor"
+				name="userAuthority" />
+			<!--定义一个包含权限检查的拦截器栈-->
+			<interceptor-stack name="merdefault">
+				<!--配置内建默认拦截器-->
+				<interceptor-ref name="defaultStack" />
+				<!--配置自定义的拦截器-->
+				<interceptor-ref name="userAuthority" />
+			</interceptor-stack>
+		</interceptors>
+		<default-action-ref name="NoAction" />
+
+		<global-results>	
+			<result name="index" type="redirect">/index.jsp</result>
+			<result name="login">/merLogin.jsp</result>
+			<result name="register">/merRegister.jsp</result>
+		</global-results>
+		<action name="MerchantNavi" class="com.qq.cstar.speedymeal.actions.MerchantRedirect">    
+			<interceptor-ref name="merdefault" />
+			<result name="managePage">/WEB-INF/content/merchantMgr.jsp</result>
+			<result name="menuPage">/WEB-INF/content/merchantMenu.jsp</result>		
+			<result name="branchPage">/WEB-INF/content/merchantBranch.jsp</result>
+		</action>
+		<action name="MerchantAction" class="com.qq.cstar.speedymeal.actions.MerchantActions">
+		    <result name="success">/WEB-INF/content/merchantMgr.jsp</result>
+		    <result name="addBranch">/WEB-INF/content/merchantBranch.jsp</result>
+		</action>		
+	</package>
+</struts>  

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/108/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/actions
+END
+UserActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/99/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/actions/UserActions.java
+END
+UserRedirect.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/99/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/actions/UserRedirect.java
+END
+MerchantActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/108/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/actions/MerchantActions.java
+END
+MerchantRedirect.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/88/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/actions/MerchantRedirect.java
+END
+SearchActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/108/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/actions/SearchActions.java
+END

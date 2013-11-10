@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/99/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/util
+END
+ContantValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/99/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/util/ContantValue.java
+END
+UserFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/86/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/util/UserFilter.java
+END
+MD5.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/17/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/util/MD5.java
+END
+Serialize.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/17/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/util/Serialize.java
+END
+EncodingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/17/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/util/EncodingFilter.java
+END
+UserInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/86/trunk/SpeedyMeal/src/com/qq/cstar/speedymeal/util/UserInterceptor.java
+END
